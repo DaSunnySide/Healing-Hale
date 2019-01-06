@@ -1,0 +1,237 @@
+{
+  "title" : "The Healing Hale - a Tranquil Retreat Just for You",
+  "StartingChapter" : "100",
+  "Chapters" : {
+    "100" : {
+      "content" : "Aloha! \n\n Located just outside of Honolulu, the Healing Hale is here to offer you a peaceful respite from the cacophonous clamor of daily life. We’re a short stroll away from the iconic Pokai Bay, where you can enjoy Hawai’i’s beautiful coastal scenery, and just around the corner from some of O’ahu’s most beautiful hikes. Whether you’re visiting from the mainland, or a local trying to enjoy some of that crisp Wai’anae air, we’re happy to welcome you into our home.",
+      "image" : "IMG_2340.jpg",
+      "choices" : [
+        {
+          "text" : "Give me a tour of the house.",
+          "nextId" : "1"
+        },
+
+        {
+          "text" : "Show me around the beach.",
+          "nextId" : "21"
+        },
+
+        {
+          "text" : "Take me in to town.",
+          "nextId" : "31"
+        }
+      ]
+    },
+
+    "1" : {
+      "content" : "Welcome in! Take off your shoes, kick back on the couch, and enjoy a quiet day at home. ",
+      "image" : "IMG_2348.jpg",
+      "choices" : [
+        {
+          "text" : "Check out the bedrooms.",
+          "nextId" : "2"
+        },
+
+        {
+          "text" : "What's in the kitchen?",
+          "nextId" : "3"
+        },
+
+        {
+          "text" : "How's the living room?",
+          "nextId" : "4"
+        }
+      ]
+    },
+    "2" : {
+      "content" : "A peaceful bedroom so quiet, you can hear the refreshing sea breeze rustling through the curtains. Staying at the Healing Hale, you'll have the privacy of your own room with a full closet, a bathroom conveniently located just down the hall, and all the best Hawai'i has to offer just outside your door.",
+      "image" : "IMG_2368.jpg",
+      "choices" : [
+        {
+          "text" : "Dinner time!",
+          "nextId" : "3"
+        },
+
+        {
+          "text" : "How's the living room?",
+          "nextId" : "4"
+        },
+
+        {
+          "text" : "Let's hit up the beach!",
+          "nextId" : "21"
+        }
+      ]
+    },
+
+    "3" : {
+      "content" : "A full kitchen with everything you need to cook up a relaxing home-cooked meal. We've got all the pots, pans, and cooking tools you could possibly need, and we offer a breakfast service as well, so even on the most listless of days, you'll still be well fed.",
+      "image" : "IMG_2347.jpg",
+      "choices" : [
+        {
+          "text" : "Check out the bed rooms",
+          "nextId" : "2"
+        },
+
+        {
+          "text" : "How's the living room?",
+          "nextId" : "4"
+        },
+
+        {
+          "text" : "What about pets?",
+          "nextId" : "5"
+        }
+      ]
+    },
+
+    "4" : {
+      "content" : "Our living room offers you a quiet place to kick back, enjoy a home-cooked meal, and have a nice social hour with other guests. Unwind from the stresses of everyday life and let go of your worries. Start your day off right with guided meditations and a bit of yoga to relax your body.",
+      "image" : "IMG_2352.jpg",
+      "choices" : [
+        {
+          "text" : "Head in to town.",
+          "nextId" : "31"
+        },
+
+        {
+          "text" : "What's that?!?",
+          "nextId" : "5"
+        }
+      ]
+    },
+
+    "5" : {
+      "content" : "Here's Mana! Your friendly feline companion. He's a real homebody, and is sure to keep you good company any time you decide to stay in for the day. You can normally find him lounging around on the couch, basking in the sunlight, or eagerly watching birds just outside the windows.",
+      "image" : "IMG_2336.jpg",
+      "choices" : [
+        {
+          "text" : "Head to the beach.",
+          "nextId" : "21"
+        },
+
+        {
+          "text" : "Check out the town.",
+          "nextId" : "31"
+        }
+      ]
+    },
+
+    "21" : {
+      "content" : "At the Pokai bay beach park, just a couple of blocks from the hale, you can enjoy romantic sunsets, relaxing walks on the beach. or a tranquil place to think things over.",
+      "image" : "IMG_2433.jpg",
+      "choices" : [
+        {
+          "text" : "Walk the beach!",
+          "nextId" : "22"
+        },
+
+        {
+          "text" : "Head into town.",
+          "nextId" : "31"
+        },
+
+        {
+          "text" : "Head back home.",
+          "nextId" : "1"
+        }
+      ]
+    },
+
+    "22" : {
+      "content" : "Located about a half mile South of the hale, this beautiful section of coast line offers a great place to hang out and take in the scenery.",
+      "image" : "IMG_2462.jpg",
+      "choices" : [
+        {
+          "text" : "Head back home.",
+          "nextId" : "1"
+        },
+
+        {
+          "text" : "Hike on the beach!",
+          "nextId" : "23"
+        },
+
+        {
+          "text" : "Head to town.",
+          "nextId" : "31"
+        }
+      ]
+    },
+
+    "23" : {
+      "content" : "Enjoy beautiful hikes and see the most beautiful places O'ahu has to offer. As locals who have lived here for years and years, we know all the hidden gems around the area, and are more than happy to show you them.",
+      "image" : "IMG_2176.jpg",
+      "choices" : [
+        {
+          "text" : "Stay on the beach!",
+          "nextId" : "24"
+        },
+
+        {
+          "text" : "Head to town.",
+          "nextId" : "31"
+        },
+
+        {
+          "text" : "Head home.",
+          "nextId" : "1"
+        }
+      ]
+    },
+
+    "24" : {
+      "content" : "Just a short drive North of the hale, here you'll find some of Hawai'i's most peaceful beaches. Feel free to ask us for more info!",
+      "image" : "IMG_2200.jpg",
+      "choices" : [
+        {
+          "text" : "Head into town.",
+          "nextId" : "31"
+        },
+
+        {
+          "text" : "Head home.",
+          "nextId" : "1"
+        }
+      ]
+    },
+
+    "31" : {
+      "content" : "Located just a short drive in to town, this beautiful harbor is just around the corner from a number of large shopping complexes, and offers a nice compromise between the hustle and bustle of Waikiki, and the calm of Wai'anae.",
+      "image" : "IMG_2160.jpg",
+      "choices" : [
+        {
+          "text" : "See a shopping center!",
+          "nextId" : "32"
+        },
+
+        {
+          "text" : "Head home.",
+          "nextId" : "1"
+        },
+
+        {
+          "text" : "Look at more coastlines.",
+          "nextId" : "21"
+        }
+      ]
+    },
+
+    "32" : {
+      "content" : "If you're looking to shop, the Ala Moana shopping center offers one of the largest outdoor shopping complexes in the world.",
+      "image" : "IMG_2168.jpg",
+      "choices" : [
+
+        {
+          "text" : "Head home!",
+          "nextId" : "1"
+        },
+
+        {
+          "text" : "Head to the beach",
+          "nextId" : "21"
+        }
+      ]
+    }
+}
+}

@@ -1,25 +1,63 @@
 .App {
   text-align: center;
+  background: radial-gradient(#288A28 65%, #3B9F3B 85%, #5cd65c 98%);
+  color: #0C220C;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+img {
+  margin-top: 10vh;
+  width: 85vw;
+  height: 85vh;
+  border-radius: 2vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  margin: 5vh 5vw 10vh 5vw;
+  padding: 1vh 2.5vw 1vh 2.5vw;
+  color: #F5FCF5;
+  text-shadow: 1px 1px #0C220C;
+  background-color: #5cd65c;
+  width: 25vw;
+  height: 25vh;
+  border-radius: 2vh;
+  font-size: 2.5vw;
+  border-color: #0C220C;
+  border-width: thin;
+}
+
+button:hover {
+  border-color: #0C220C;
+  border-width: medium;
+  border-style: dotted;
+}
+
+.route {
+  margin-top: 5vh;
+  padding: 2.5vh 5vw 2.5vh 5vw;
+  font-size: 2vw;
+  color: #F5FCF5;
+  text-shadow: 1px 1px #0C220C;
+  background: none;
+}
+
+.choices {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.contact {
+  margin-top: 5vh;
+  padding: 2.5vh 5vw 10vh 5vw;
+  font-size: 2vw;
+  color: #F5FCF5;
+  text-shadow: 1px 1px #0C220C;
+  background: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    text-shadow: 1px 1px #5cd65c;
 }
 
 @keyframes App-logo-spin {
